@@ -7,59 +7,119 @@ public class JavaLinuxAlternatives{
         System.out.println("Examples: 'photoshop', 'office', 'illustrator', 'notepad', 'winrar'");
     }
 
+    static void printphotoshop(){
+        System.out.println("A great alternative to Adobe Photoshop is the GNU Image Manipulation Program");
+        System.out.println("Fedora DNF Install Command: 'dnf install gimp'");
+        System.out.println("Debian APT Install Command: 'apt-get install gimp'");
+    }
+
+    static void printoffice(){
+        System.out.println("A great alternative to Microsoft Office is the free office suite LibreOffice");
+        System.out.println("Fedora DNF Install Command: 'dnf install libreoffice'");
+        System.out.println("Debian APT Install Command: 'apt-get install libreoffice'");
+    }
+
+    static void printillustrator(){
+        System.out.println("A great alternative to Adobe Illustrator is the vector imaging program Inkscape");
+        System.out.println("Fedora DNF Install Command: 'dnf install inkscape'");
+        System.out.println("Debian APT Install Command: 'apt-get install inkscape'");
+    }
+
+    static void printpremiere(){
+        System.out.println("A great alternative to Adobe Premiere is the video editing program Flowblade");
+        System.out.println("Fedora DNF Install Command: 'dnf install flowblade'");
+        System.out.println("Debian APT Install Command: 'apt-get install flowblade'");
+    }
+
+    static void printnotepad(){
+        System.out.println("A great alternative to Microsoft Notepad is the text editor Leafpad");
+        System.out.println("Fedora DNF Install Command: 'dnf install leafpad'");
+        System.out.println("Debian APT Install Command: 'apt-get install leafpad'");
+    }
+
+    static void printsublime(){
+        System.out.println("A great alternative to Sublime Text is the KDE text/code editor Kate");
+        System.out.println("Fedora DNF Install Command: 'dnf install kate'");
+        System.out.println("Debian APT Install Command: 'apt-get install kate'");
+    }
+
+    static void printfls(){
+        System.out.println("A great alternative to FL Studio is the music DAW LMMS");
+        System.out.println("Fedora DNF Install Command: 'dnf install lmms'");
+        System.out.println("Debian APT Install Command: 'apt-get install lmms'");
+    }
+
+    static void printwinrar(){
+        System.out.println("A great alternative to WinRAR is the Linux command line tool UnRar");
+        System.out.println("Fedora DNF Install Command: 'dnf install unrar'");
+        System.out.println("Debian APT Install Command: 'apt-get install unrar'");
+        System.out.println("Example of using UnRar to extract a .rar file: 'unrar e yourfilehere.rar'");
+    }
+
+    static void printsolitaire(){
+        System.out.println("A great alternative to Windows solitaire is the Aisleriot solitaire game");
+        System.out.println("Fedora DNF Install Command: 'dnf install aisleriot'");
+        System.out.println("Debian APT Install Command: 'apt-get install aisleriot'");
+    }
+
+    static void printdoom(){
+        System.out.println("A great alternative to the classic FPS game DOOM is FreeDOOM");
+        System.out.println("Fedora DNF Install Command: 'dnf install freedoom'");
+        System.out.println("Debian APT Install Command: 'apt-get install freedoom'");
+    }
+
+    static void printexplorer(){
+        System.out.println("A great alternative to the Windows Explorer file manager is KDE's Dolphin file manager");
+        System.out.println("Fedora DNF Install Command: 'dnf install dolphin'");
+        System.out.println("Debian APT Install Command: 'apt-get install dolphin'");
+    }
+
+    static void printvs(){
+        System.out.println("A great alternative to using the Microsoft Visual Studio IDE for GUI applications is QtCreator");
+        System.out.println("Fedora DNF Install Command: 'dnf install qtcreator'");
+        System.out.println("Debian APT Install Command: 'apt-get install qtcreator'");
+        System.out.println("Note: It is recommended by the Qt Company to install Qt/QtCreator from their website, access it with the link below");
+        System.out.println("https://www.qt.io/download-thank-you?hsLang=en");
+    }
+
     static void find(String program){
         System.out.println("User Entered: " + program);
         switch(program.toLowerCase()){
             case "photoshop":
-                System.out.println("A great alternative to Adobe Photoshop is the GNU Image Manipulation Program");
-                System.out.println("Fedora DNF Install Command: 'dnf install gimp'");
-                System.out.println("Debian APT Install Command: 'apt-get install gimp'");
+                printphotoshop();
                 break;
             case "office":
-                System.out.println("A great alternative to Microsoft Office is the free office suite LibreOffice");
-                System.out.println("Fedora DNF Install Command: 'dnf install libreoffice'");
-                System.out.println("Debian APT Install Command: 'apt-get install libreoffice'");
+                printoffice();
                 break;
             case "illustrator":
-                System.out.println("A great alternative to Adobe Illustrator is the vector imaging program Inkscape");
-                System.out.println("Fedora DNF Install Command: 'dnf install inkscape'");
-                System.out.println("Debian APT Install Command: 'apt-get install inkscape'");
+                printillustrator();
                 break;
             case "premiere":
-                System.out.println("A great alternative to Adobe Premiere is the video editing program Flowblade");
-                System.out.println("Fedora DNF Install Command: 'dnf install flowblade'");
-                System.out.println("Debian APT Install Command: 'apt-get install flowblade'");
+                printpremiere();
                 break;
             case "notepad":
-                System.out.println("A great alternative to Microsoft Notepad is the text editor Leafpad");
-                System.out.println("Fedora DNF Install Command: 'dnf install leafpad'");
-                System.out.println("Debian APT Install Command: 'apt-get install leafpad'");
+                printnotepad();
                 break;
             case "sublime":
-                System.out.println("A great alternative to Sublime Text is the KDE text/code editor Kate");
-                System.out.println("Fedora DNF Install Command: 'dnf install kate'");
-                System.out.println("Debian APT Install Command: 'apt-get install kate'");
+                printsublime();
                 break;
             case "fl studio":
-                System.out.println("A great alternative to FL Studio is the music DAW LMMS");
-                System.out.println("Fedora DNF Install Command: 'dnf install lmms'");
-                System.out.println("Debian APT Install Command: 'apt-get install lmms'");
+                printfls();
                 break;
             case "winrar":
-                System.out.println("A great alternative to WinRAR is the Linux command line tool UnRar");
-                System.out.println("Fedora DNF Install Command: 'dnf install unrar'");
-                System.out.println("Debian APT Install Command: 'apt-get install unrar'");
-                System.out.println("Example of using UnRar to extract a .rar file: 'unrar e yourfilehere.rar'");
+                printwinrar();
                 break;
             case "solitaire":
-                System.out.println("A great alternative to Windows solitaire is the Aisleriot solitaire game");
-                System.out.println("Fedora DNF Install Command: 'dnf install aisleriot'");
-                System.out.println("Debian APT Install Command: 'apt-get install aisleriot'");
+                printsolitaire();
                 break;
             case "doom":
-                System.out.println("A great alternative to the classic FPS game DOOM is FreeDOOM");
-                System.out.println("Fedora DNF Install Command: 'dnf install freedoom'");
-                System.out.println("Debian APT Install Command: 'apt-get install freedoom'");
+                printdoom();
+                break;
+            case "explorer":
+                printexplorer();
+                break;
+            case "visual studio":
+                printvs();
                 break;
             default:
                 System.out.println(program + " was not found");
