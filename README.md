@@ -4,7 +4,9 @@ It was originally written with Java, but due to the resource overhead of Java an
 Instructions to install the alternatives on Linux systems with either Debian or Fedora package managers are provided on search.
 
 # Compile/Build Instructions
-Simply enter the command `gcc main.c -o Clinalts` (or the equivalent with a different compiler) from within a folder containing the main.c file to compile and build the program.
+Simply enter the command `gcc main.c -o Clinalts` (or the equivalent with a different compiler) from within a folder containing the main.c file to compile and build the program. 
+
+A Windows build and source code are available in the `winsrc` and `winbuild` folders for those who want to run the program but are not on a Unix compatible OS.
 
 # Run Instructions
 This program contains a Linux build that was made with Debian 11 and GCC, you can also build it yourself. 
